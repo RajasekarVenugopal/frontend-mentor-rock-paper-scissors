@@ -1,0 +1,51 @@
+.score-card {
+  border: 3px solid hsl(217, 16%, 45%);
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.game-type {
+  margin-left: 1rem;
+}
+
+.score {
+  background-color: white;
+  border-radius: 0.7rem;
+  padding: 1.5rem 4rem;
+  text-align: center;
+}
+
+.title {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: hsl(229, 64%, 46%);
+  letter-spacing: 3px;
+}
+
+.point {
+  font-weight: 700;
+  color: hsl(229, 25%, 31%);
+}
+
+@media only screen and (max-width: 768px) {
+  .score-card {
+    padding: 1rem 1.5rem;
+  }
+
+  .title {
+    letter-spacing: 1px;
+  }
+  .game-type {
+    margin: 0;
+    width: 40%;
+    height: 40%;
+  }
+  .score {
+    padding: 0.5rem 2rem;
+  }
+}
